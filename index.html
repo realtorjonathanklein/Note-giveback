@@ -7,41 +7,48 @@
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #fafafa;
+      background-color: #f7f7f7;
       color: #222;
-      text-align: center;
       margin: 0;
       padding: 40px 20px;
     }
     .container {
-      max-width: 640px;
+      max-width: 700px;
       margin: 0 auto;
       background: #ffffff;
       padding: 40px 30px;
       border-radius: 8px;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      text-align: center;
     }
     h1 {
-      margin-top: 0;
       font-size: 32px;
+      margin-top: 0;
       letter-spacing: 0.5px;
     }
     p {
       font-size: 18px;
       line-height: 1.6;
+      margin-bottom: 18px;
     }
     .cta {
       display: inline-block;
       margin-top: 30px;
-      padding: 16px 28px;
-      background: #000;
+      padding: 16px 30px;
+      background-color: #000;
       color: #fff;
       text-decoration: none;
       font-size: 18px;
       border-radius: 6px;
     }
     .cta:hover {
-      background: #333;
+      background-color: #333;
+    }
+    iframe {
+      width: 100%;
+      height: 700px;
+      margin-top: 35px;
+      border: none;
     }
     .footer {
       margin-top: 30px;
@@ -53,26 +60,32 @@
 
 <body>
   <div class="container">
+
     <h1>Theatre of NOTE<br>Giveback Program</h1>
 
     <p>
       The Theatre of NOTE Giveback Program is a community-driven initiative
-      designed to support original theater, artists, and arts outreach through
-      direct financial contributions.
+      supporting original theater, artists, and arts outreach through direct
+      financial contributions.
     </p>
 
     <p>
-      Click below to view a brief overview of how the program works and how your
-      participation helps keep bold, independent theater alive in Los Angeles.
+      Below you’ll find a one-page overview detailing how the program works
+      and how participation helps sustain bold, independent theater in Los
+      Angeles.
     </p>
 
-    <a class="cta" href="theatre-of-note-giveback-program.pdf" target="_blank">
-      View the Giveback Program PDF
+    <a class="cta" href="note-giveback.pdf" target="_blank">
+      Open PDF in New Tab
     </a>
+
+    <!-- Embedded PDF -->
+    <iframe src="note-giveback.pdf"></iframe>
 
     <div class="footer">
       © Theatre of NOTE • Est. 1982
     </div>
+
   </div>
 </body>
 </html>
